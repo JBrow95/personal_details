@@ -1,0 +1,53 @@
+body {
+	background-image: url("https://images.pexels.com/photos/257092/pexels-photo-257092.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940");
+	background-size: cover;
+	background-repeat: no-repeat;
+	font-family: 'Quicksand';
+	height: 100vh;
+	width: 100vw;
+}
+
+.header {
+	font-size: 20px;
+	color: #333;
+	text-align: center;
+}
+
+.nameForm {
+	position: absolute;
+	top: 35%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	width: 500px;
+	padding: 50px;
+	background: rgba(0,0,0,0.8);
+	box-sizing: border-box;
+	box-shadow: 0 15px 25px rgba(0,0,0,0.6);
+	border-radius: 10px;
+}
+
+.nameForm .inputBox {
+	color: #fff;
+}
+
+.nameForm .inputBox input {
+	margin: 20px 0;
+	width: 100%;
+	background: rgba(0,0,0,0);
+	border: none;
+	border-bottom: 1px solid #fff;
+}
+
+::-webkit-input-placeholder {
+	color: #EAEAEA;
+	font-size: 14px;
+	letter-spacing: 2px;
+}
+
+.subBtn input[type="submit"] {
+	border-style: none;
+	border-radius: 10px;
+	width: 80px;
+	background-color: #e33;
+	cursor: pointer;
+}

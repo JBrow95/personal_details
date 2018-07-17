@@ -1,0 +1,18 @@
+<body>
+	<h2>Hello <%= first%> <%= last%>!</h2>
+
+	<div>
+		<form method="post" action="info">
+			<label>State</label>
+			<input type="text" name="state">
+			<label>City</label>
+			<input type="text" name="city">
+			<label>Str</label>
+			<input type="text" name="street">
+			<label>Zip</label>
+			<input type="number" name="zip">
+			<input type="hidden" name="first" value='<%= first%>'>
+			<input type="submit" value="Submit">
+		</form>
+	</div>
+</body>

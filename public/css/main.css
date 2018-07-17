@@ -18,14 +18,14 @@ body {
 
 .nameForm {
 	position: absolute;
-	top: 35%;
+	top: 48%;
 	left: 50%;
 	transform: translate(-50%, -50%);
 	width: 500px;
 	padding: 50px;
 	background: rgba(0,0,0,0.8);
 	box-sizing: border-box;
-	box-shadow: 0 15px 25px rgba(0,0,0,0.8);
+	box-shadow: 0 15px 25px rgba(0,0,0,0.9);
 	border-radius: 10px;
 }
 
@@ -105,7 +105,7 @@ body {
 	padding: 58px;
 	background: rgba(0,0,0,0.05);
 	box-sizing: border-box;
-	box-shadow: 0 15px 25px rgba(0,0,0,0.5);
+	box-shadow: 0 15px 25px rgba(0,0,0,0.7);
 	border-radius: 10px;
 }
 
@@ -136,14 +136,60 @@ body {
 	font-size: 16px;
 }
 
-.btn1 {
+.btn1 input[type="submit"] {
+	font-size: 16px;
+	font-weight: bold;
 	margin-top: 25px;
 	float: right;
 	border-style: none;
+	background: transparent;
+	border: none;
+	outline: none;
+	cursor: pointer;
 }
 
-.btn2 {
+.btn2 input[type="button"] {
+	font-size: 16px;
+	font-weight: bold;
 	margin-top: 25px;
 	float: left;
-	border-style: none;
+	border: none;
+	outline: none;
+	background: transparent;
+	border: none;
+	outline: none;
+	cursor: pointer;
+}
+
+#hover2:hover {
+	opacity: 0.4;
+}
+
+
+
+.container2 {
+	position: absolute;
+	top: 48%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	width: 500px;
+	padding: 50px;
+	background: rgba(181,30,110,0.2);
+	box-sizing: border-box;
+	box-shadow: 0 15px 25px rgba(0,0,0,0.7);
+	border-radius: 15px;
+}
+
+
+.container2 .inputBox3 input {
+	margin: 20px 0;
+	width: 100%;
+	background: rgba(0,0,0,0);
+	border: none;
+	border-bottom: 1px solid #fff;
+	outline: none;
+}
+
+.header4 {
+	text-align: center;
 }

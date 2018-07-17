@@ -1,19 +1,24 @@
 <body>
-	<p>Hello again <%= first%>!</p>
 
-	<div>
+	<div class="header4">
+		<h4>Pick 3 of your favorite numbers <%= first%>!</h4>
+	</div>
+
+	<div class="container2">
 		<form method="post" action="numbers">
-			<label>Enter one of your favorite numbers</label>
-			<input type="number" name="fav1">
-			<label>Enter another favorite number</label>
-			<input type="number" name="fav2">
-			<label>Enter your last favorite number</label>
-			<input type="hidden" name="first" value="<%= first%>">
-			<input type="number" name="fav3">
-			<input type="hidden" name="state" value='<%= state%>'>
-			<input type="hidden" name="city" value='<%= city%>'>
-			<input type="hidden" name="street" value='<%= street%>'>
-			<input type="hidden" name="zip" value='<%= zip%>'>
+			<div class="inputBox3">
+				<label>Enter Number</label>
+				<input type="number" name="fav1">
+				<label>Enter Number</label>
+				<input type="number" name="fav2">
+				<input type="hidden" name="first" value="<%= first%>">
+				<label>Enter Number</label>
+				<input type="number" name="fav3">
+				<input type="hidden" name="state" value='<%= state%>'>
+				<input type="hidden" name="city" value='<%= city%>'>
+				<input type="hidden" name="street" value='<%= street%>'>
+				<input type="hidden" name="zip" value='<%= zip%>'>
+			</div>
 			<input type="submit" value="submit">
 		</form>
 	</div>

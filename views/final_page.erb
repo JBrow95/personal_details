@@ -1,11 +1,18 @@
 <body>
-	<p>hello <%= first%></p>
-
-	<p>Your address is: <%= state%> <%= city%> <%= street%> <%= zip%></p>
 
 	<p>Your total is <%= fav4%></p>
 
 	<div class="card-container">
-		<div class="card"></div>
+		<div class="card">
+			<dir class="front">
+				<h1>hello <%= first%></h1>
+			</dir>
+			<div>
+				<button>See Result</button>
+			</div>
+			<div class="back">
+				<h1>Your address is: <%= state%> <%= city%> <%= street%> <%= zip%></h1>
+			</div>
+		</div>
 	</div>
 </body>
